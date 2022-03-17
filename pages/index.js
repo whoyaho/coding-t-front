@@ -24,8 +24,11 @@ const Home = () => {
         />
       </header>
       <div className={styles.problemContainer}>
+        <Link href="/signup">
+          <a className={styles.problemBtn}>회원가입 구현하기</a>
+        </Link>
         <Link href="/login">
-          <a className={styles.problemBtn}>회원가입/로그인 구현하기</a>
+          <a className={styles.problemBtn}>로그인 구현하기</a>
         </Link>
       </div>
     </Layout>
