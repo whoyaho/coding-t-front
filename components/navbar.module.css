@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  background-color: "red";
+  justify-content: center;
+  height: 3rem;
+}
+
+.navBtn {
+  font-weight: bold;
+  background-color: rgb(255, 0, 149);
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+.navBtn:nth-child(2) {
+  background-color: rgb(0, 102, 255);
+}
+
+.navBtn:hover {
+  flex: 1.2;
+  background-color: black;
+}
